@@ -129,3 +129,30 @@ const x = 2;     // Not allowed
 }
 //結論是const 跟let 很像 比較嚴謹  
 ```
+## JavaScript Arrays 陣列
++ JavaScript arrays are written with square brackets.  []  
++ Array items are separated by commas.  逗號隔開每一個item  
++ The following code declares (creates) an array called cars, containing three items (car names):
+```
+  const cars = ["Saab", "Volvo", "BMW"];
+```
+## Objects 物件  
++ JavaScript objects are written with curly braces {}.  
++ 物件的性質是 name:value  pairs  冒號隔開  
+ ```
+  const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"}
+  ```
+## typeof Operator  
++ use the JavaScript typeof operator to find the type of a JavaScript variable.  
+```
+typeof ""             // Returns "string"
+typeof "John"         // Returns "string"
+typeof "John Doe"     // Returns "string"
+typeof 0              // Returns "number"
+typeof 314            // Returns "number"
+typeof 3.14           // Returns "number"
+typeof (3)            // Returns "number"
+typeof (3 + 4)        // Returns "number"
+  ```
+## Functions  
+  
