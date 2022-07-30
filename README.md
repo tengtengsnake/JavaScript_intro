@@ -155,4 +155,14 @@ typeof (3)            // Returns "number"
 typeof (3 + 4)        // Returns "number"
   ```
 ## Functions  
++ JavaScript 函數是用function關鍵字定義的，後跟一個name，然後是括號()  
+```
+  function myFunction(p1,p2) {
+    return p1*p2
+}
+  //標準長相
+  function name(parameter1, parameter2, parameter3) {
+  // code to be executed
+}
+  ```
   
