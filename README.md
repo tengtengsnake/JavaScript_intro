@@ -165,4 +165,35 @@ typeof (3 + 4)        // Returns "number"
   // code to be executed
 }
   ```
-  
+## object 物件  
++ 物件可以想像成一台車,性質是型號,車重,顏色,而物件的方法可以是car.start(),car.drive()  
++ 物件也是一個變數,不過可以存放很多值  
+```
+let car = "Fiat";
+const car ={type:"Fiat",model:"500",color:"white"};
+//The values are written as name:value pairs (name and value separated by a colon)
+object definition
+const person={firstName:"John",lattName:"Doe",eyecolor:"blue"};
+
+const person={
+    firstName:"John",
+    lastName:"Doe",
+    age:50,
+    eyeColor:"blue"
+};//The name:values pairs in JavaScript objects are called properties:
+```
+## object method 物件方法  
+```
+//Objects can also have methods
+//Methods are actions that can be performed on objects
+//Methods are stored in properties as function definitions
+ const person={
+        firstName:"John",
+        lastName:"Doe",
+        id:5566,
+        fullname:function(){
+            return this.firstName+""+this.lastName  //person.firstName   person.lastName
+        }
+        ```
+## this 關鍵字  
++ In JavaScript, the this keyword refers to an object.  關於物件  
